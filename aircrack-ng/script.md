@@ -19,7 +19,7 @@ sudo airodump-ng wlan0mon
 ```
 
 
-### saved traffic packets
+### save traffic packets
 ```
 sudo airodump-ng --bssid 00:00:00:00:00:00 -w 파일 이름 wlan0mon
 ```
