@@ -34,6 +34,15 @@ sudo aireplay-ng --deauth 100 -a 00:00:00:00:00:00 wlan0mon
 ```
 
 
+### aireplay-ng error : (wlan0mon is on channel 2, but the AP uses channel 5)
+```
+sudo airmon-ng start wlan0mon 5
+or)
+sudo iwconfig wlan0mon channel 5
+```
+
+
+
 ### crack password
 ```
 sudo aircrack-ng filename.cap -w dict.lst
