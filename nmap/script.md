@@ -12,3 +12,9 @@ nmap -sU 192.168.0.5
 ```
 nmap -sT 192.168.0.5
 ```
+
+
+# scanning with OS information
+```
+nmap -sT 192.168.0.5 -A
+```
