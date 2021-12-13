@@ -19,9 +19,9 @@ nmap -sT 192.168.0.5
 nmap -sT 192.168.0.5 -A
 ```
 
-# Port range (n-m)
+# Port range (0-65535)
 ```
-nmap -sT 192.168.0.5 -p 1-9999
+nmap -sT 192.168.0.5 -p 80-90
 ```
 
 
