@@ -1,14 +1,14 @@
-#TCP scan
+# TCP scan
 ```
 nmap -sT 192.168.0.5
 ```
 
-#UDP scan
+# UDP scan
 ```
 nmap -sU 192.168.0.5
 ```
 
-#Stealth scan(need root's perm)
+# Stealth scan(need root's perm)
 ```
 nmap -sT 192.168.0.5
 ```
