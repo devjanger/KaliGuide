@@ -14,9 +14,9 @@ nmap -sT 192.168.0.5
 ```
 
 
-# scanning with OS information
+# scanning OS information
 ```
-nmap -sT 192.168.0.5 -A
+nmap -O 192.168.0.5
 ```
 
 # Port range (0-65535)
