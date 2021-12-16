@@ -33,5 +33,5 @@ nmap -sT 192.168.0.5 -v
 
 # probe service version
 ```
-nmap -sV -p4858 192.168.0.15
+nmap -sV -p22 192.168.0.15
 ```
