@@ -29,3 +29,9 @@ nmap -sT 192.168.0.5 -p 80-90
 ```
 nmap -sT 192.168.0.5 -v
 ```
+
+
+# prove service version
+```
+nmap -sV -p4858 192.168.0.15
+```
