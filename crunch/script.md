@@ -9,4 +9,4 @@ crunch 5 5 -f /usr/share/crunch/charset.lst lalpha-numeric -o output.txt
 ```
 
 # reference
-<a href="https://www.geeksforgeeks.org/kali-linux-crunch-utility/" target="_blank">link</a>
+<a href="https://www.geeksforgeeks.org/kali-linux-crunch-utility/" >link</a>
