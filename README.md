@@ -1,22 +1,22 @@
 # KaliGuide
 
 * Vulnerablility Analysis
-  * <a href="https://github.com/Logic-01001010/KaliGuide/tree/main/nmap">nmap</a>
+  * <a href="https://github.com/devjanger/KaliGuide/tree/main/nmap/script.md">nmap</a>
 </br>
 
 * Wireless Attacks
-  * <a href="https://github.com/Logic-01001010/KaliGuide/tree/main/aircrack-ng">aircrack-ng</a>
+  * <a href="https://github.com/devjanger/KaliGuide/tree/main/aircrack-ng/script.md">aircrack-ng</a>
 </br>
 
 * Password Attacks
-  * <a href="https://github.com/Logic-01001010/KaliGuide/tree/main/medusa">medusa</a>
-  * <a href="https://github.com/Logic-01001010/KaliGuide/blob/main/hydra">hydra</a>
+  * <a href="https://github.com/devjanger/KaliGuide/tree/main/medusa/script.md">medusa</a>
+  * <a href="https://github.com/devjanger/KaliGuide/blob/main/hydra/script.md">hydra</a>
 </br>
 
 * Framework
-  * <a href="https://github.com/Logic-01001010/KaliGuide/tree/main/metasploit">metasploit</a>
+  * <a href="https://github.com/devjanger/KaliGuide/tree/main/metasploit/script.md">metasploit</a>
 </br>
 
 * Reverse Shell
-  * <a href="https://github.com/Logic-01001010/KaliGuide/tree/main/netcat">netcat</a>
+  * <a href="https://github.com/devjanger/KaliGuide/tree/main/netcat/script.md">netcat</a>
 </br>
