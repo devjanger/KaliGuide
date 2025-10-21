@@ -1,3 +1,9 @@
+### Show network information(Windows)
+
+``` powershell
+netsh wlan show network mode=bssid
+```
+
 
 ### Available channel list
 
