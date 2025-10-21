@@ -1,5 +1,5 @@
 
-### Channel list
+### Available channel list
 
 ``` bash
 ┌──(kali㉿kali)-[~]
