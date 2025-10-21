@@ -66,6 +66,9 @@ sudo iw dev wlan0mon set channel 8
 ``` bash
 sudo airodump-ng wlan0mon
 
+# 5GHz capture
+airodump-ng --band a wlan0mon
+
 # ex)
 # 70:5D:CC:65:45:C2 - 305
 # 88:36:6C:90:F4:DE - Iptime
@@ -118,3 +121,10 @@ sudo iwconfig wlan0mon channel 5
 ``` bash
 sudo aircrack-ng filename.cap -w dict.lst
 ```
+
+---
+
+#### Reference
+
+- https://deliberate-practice.tistory.com/48
+
