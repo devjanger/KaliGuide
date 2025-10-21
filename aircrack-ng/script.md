@@ -1,4 +1,4 @@
-### Show network information(Windows)
+### Show connected network information(Windows)
 
 ``` powershell
 netsh wlan show network mode=bssid
